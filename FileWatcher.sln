@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWatcher", "FileWatcher\FileWatcher.csproj", "{9AE75A0D-A699-4774-95A7-C40E123A5D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileWatcher", "FileWatcher\FileWatcher.csproj", "{9AE75A0D-A699-4774-95A7-C40E123A5D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.IO.FileSystem.Watcher.Polling", "System.IO.FileSystem.Watcher.Polling\System.IO.FileSystem.Watcher.Polling.csproj", "{9B542163-0B61-4837-83D6-F6AB8F297B1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollingFileWatcher", "PollingFileWatcher\PollingFileWatcher.csproj", "{10A1BA0A-453F-44B5-B73B-2C1F34CE2912}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9AE75A0D-A699-4774-95A7-C40E123A5D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE75A0D-A699-4774-95A7-C40E123A5D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE75A0D-A699-4774-95A7-C40E123A5D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B542163-0B61-4837-83D6-F6AB8F297B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B542163-0B61-4837-83D6-F6AB8F297B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B542163-0B61-4837-83D6-F6AB8F297B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B542163-0B61-4837-83D6-F6AB8F297B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A1BA0A-453F-44B5-B73B-2C1F34CE2912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A1BA0A-453F-44B5-B73B-2C1F34CE2912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A1BA0A-453F-44B5-B73B-2C1F34CE2912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A1BA0A-453F-44B5-B73B-2C1F34CE2912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
